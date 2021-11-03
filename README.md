@@ -1,5 +1,5 @@
 # shell-reverse
-Uma ferramenta de segurança da informação escrita em python3, capaz de dar acesso total ao computador de alguém! 
+Uma ferramenta de segurança da informação escrita em python3, capaz de dar<b> acesso total ao computador </b>de alguém! 
 
 
 A cybersecurity tool written in python3, this can to allow full control someone's pc
